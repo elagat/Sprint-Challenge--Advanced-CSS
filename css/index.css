@@ -240,6 +240,30 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  height: 34px;
+  width: 105px;
+  font-size: 1.8rem;
+  background: #23293B;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    height: 50px;
+    width: 100%;
+    font-size: 1.8rem;
+    background: #23293B;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
