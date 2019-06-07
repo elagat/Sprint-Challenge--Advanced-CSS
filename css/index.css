@@ -283,6 +283,10 @@ footer {
   display: table-cell;
   vertical-align: middle;
 }
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: #23293B;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     height: 50px;
@@ -294,6 +298,10 @@ footer {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+  }
+  .home .walk .walk-text .btn:hover {
+    background: white;
+    color: #23293B;
   }
 }
 .home .walk .walk-img {
